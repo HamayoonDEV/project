@@ -1,0 +1,16 @@
+import dotenv from "dotenv";
+dotenv.config();
+
+const PORT = process.env.PORT;
+const DATABASE_CONNNECTION = process.env.DATABASE_CONNECTION_STRING;
+const ACCESS_TOKEN_STRING = process.env.ACCESS_TOKEN_STRING;
+const REFRESH_TOKEN_STRING = process.env.REFRESH_TOKEN_STRING;
+const BACKEND_SERVER_PATH = process.env.BACKEND_SERVER_PATH;
+
+export {
+  PORT,
+  DATABASE_CONNNECTION,
+  ACCESS_TOKEN_STRING,
+  REFRESH_TOKEN_STRING,
+  BACKEND_SERVER_PATH,
+};
